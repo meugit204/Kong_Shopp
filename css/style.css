@@ -7,24 +7,30 @@ a { text-decoration: none; }
 
 /*contaner com o titulo da pagina*/
 .contaner-titulo {
-	width: 90%;
+	width: 100%;
+	background-color: #fff;
 }
+
 .titulo {
 	width: 90%;
-	margin-top: 2%;
 }
-.titulo h1 {
+
+.titulo img {
+	width: 30%;
+}
+/*.titulo h1 {
 	font-family: 'Luckiest Guy', cursive;
 	font-size: 3em;
 	text-align: center;
 	color: #FACC2E;
-}
+}*/
 
 /*contaner com o contatos da pagina*/
 .contaner-contato {
-	width: 90%;
+	width: 100%;
 	display: flex;
 	justify-content: center;
+	background-color: #fff;
 }
 .contato {
 	margin: 4%;
@@ -33,14 +39,14 @@ a { text-decoration: none; }
 
 .contato i {
 	font-size: 1em;
-	color: #fff;	
+	color: #000;	
 }
 
 .contato p {
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 1em;
 	padding-top: 3%;
-	color: #fff;
+	color: #000;
 }
 
 /*contaner com informaçao sobre parcelamento da pagina*/
@@ -123,7 +129,7 @@ a { text-decoration: none; }
 
 /*contaner final da pagina*/
 .fim-da-pagina {
-	background-color: #000;
+	background-color: #fff;
 	margin-top: 5%;
 }
 .logo-fim img {
@@ -136,7 +142,7 @@ a { text-decoration: none; }
 }
 .icons-fim i {
 	padding: 0 3% 0 3%;
-	color: #fFF;
+	color: #000;
 	font-size: 1.5em;
 }
 
